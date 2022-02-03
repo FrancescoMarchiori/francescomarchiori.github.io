@@ -292,7 +292,7 @@ img{
 }
 
 .home__social-icon{
-    font-size: 1.25rem;
+    font-size: 2rem;
     color: var(--first-color);
     transition: all .3s ease;
 }
@@ -552,6 +552,18 @@ img{
 
 .skills__photoshop{
     width: 85%;
+}
+
+.skills__office{
+    width: 75%;
+}
+
+.skills__premiere{
+    width: 65%;
+}
+
+.skills__ableton{
+    width: 70%;
 }
 
 .skills__close .skills__list{
@@ -1179,5 +1191,13 @@ img{
     }
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .scrollup{
+        right: 5rem;
+    }
+
+    .show-scroll{
+        right: 5rem;
     }
 }
