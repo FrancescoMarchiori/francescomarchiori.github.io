@@ -164,6 +164,7 @@ img{
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    transition: all .3s ease;
 }
 
 .nav__logo:hover{
@@ -173,6 +174,7 @@ img{
 .nav__toggle{
     font-size: 1.1rem;
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 .nav__toggle:hover{
@@ -205,6 +207,7 @@ img{
     font-size: var(--small-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
+    transition: all .3s ease;
 }
 
 .nav__link:hover{
@@ -222,6 +225,7 @@ img{
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--first-color);
+    transition: all .3s ease;
 }
 
 .nav__close:hover{
@@ -259,6 +263,7 @@ img{
 .home__social-icon{
     font-size: 1.25rem;
     color: var(--first-color);
+    transition: all .3s ease;
 }
 
 .home__social-icon:hover{
@@ -271,7 +276,7 @@ img{
 }
 
 .home__blob-img{
-    width: 170px;
+    width: 190px;
 }
 
 .home__data{
@@ -300,6 +305,7 @@ img{
 .home__scroll-button{
     color: var(--first-color);
     transition: .3s;
+    transition: all .3s ease;
 }
 
 .home__scroll-button:hover{
@@ -329,6 +335,7 @@ img{
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
+    transition: all .3s ease;
 }
 
 .button:hover{
@@ -338,7 +345,18 @@ img{
 .button__icon{
     font-size: 1.25rem;
     margin-left: var(--mb-0-25);
-    transition: .3s;
+    transition: all .3s ease;
+}
+
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+    transition: all .3s ease;
+}
+
+.button--white:hover{
+    background-color: #FFF;
+    transform: scale(1.03)
 }
 
 .button--flex{
@@ -530,6 +548,7 @@ img{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 .qualification__button:hover{
@@ -658,7 +677,38 @@ img{
 }
 
 /*==================== PROJECT IN MIND ====================*/
+.project{
+    text-align: center;
+}
 
+.project__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+    color: #FFF;
+}
+
+.project__img{
+    width: 232px;
+    justify-self: center;
+}
+
+.project__button:hover .button__icon{
+    transform: translateX(.25rem);
+}
 
 /*==================== TESTIMONIAL ====================*/
 
