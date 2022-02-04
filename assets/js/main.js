@@ -163,9 +163,10 @@ const sr = ScrollReveal({
     //reset: true
 });
 
-sr.reveal('.home__data, .about__container, .skills__subtitle, .skills__text, .qualification__sections, .portfolio__container, .project',{}); 
+sr.reveal('.home__data, .about__container, .skills__subtitle, .skills__text, .qualification__sections, .portfolio__container, .project, .home__social-icon',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 200}); 
-sr.reveal('.home__social-icon, .contact__information, .contact__content',{ interval: 200}); 
+//sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data',{interval: 200}); 
-sr.reveal('.contact__button',{delay: 1400}); 
+sr.reveal('.contact__button',{delay: 1050}); 
 sr.reveal('.home__scroll',{delay: 800}); 
+sr.reveal('.contact__information, .contact__content',{ interval: 150});
