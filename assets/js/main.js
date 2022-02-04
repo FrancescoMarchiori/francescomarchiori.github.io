@@ -153,3 +153,19 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*===== SCROLL REVEAL ANIMATION =====*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 1000,
+    //delay: 200,
+    //reset: true
+});
+
+sr.reveal('.home__data, .about__container, .skills__subtitle, .skills__text, .qualification__sections, .portfolio__container, .project',{}); 
+sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 200}); 
+sr.reveal('.home__social-icon, .contact__information, .contact__content',{ interval: 200}); 
+sr.reveal('.skills__data',{interval: 200}); 
+sr.reveal('.contact__button',{delay: 1400}); 
+sr.reveal('.home__scroll',{delay: 800}); 
