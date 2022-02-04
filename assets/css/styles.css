@@ -714,10 +714,6 @@ img{
     right: -.5rem
 }
 
-.swiper-pagination-bullets{
-    background-color: white;
-}
-
 .swiper-container-horizontal > .swiper-pagination-bullets{
     bottom: -2.5rem;
 }
