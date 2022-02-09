@@ -12,10 +12,10 @@
     <a href="https://francescomarchiori.github.io/"><strong>Look it up »</strong></a>
     <br />
     <br />
-    <div>HTML</div>
+    <a>HTML</a>
     ·
-    <div>CSS</div>
+    <a>CSS</a>
     ·
-    <div>JavaScript</div>
+    <a>JavaScript</a>
   </p>
 </div>
