@@ -678,9 +678,12 @@ img{
 }
 
 .portfolio__img{
-    width: 265px;
+    width: 200px;
     border-radius: .5rem;
     justify-self: center;
+}
+.portfolio__img-small{
+    width: 150px;
 }
 
 .portfolio__title{
@@ -793,7 +796,7 @@ img{
 }
 
 .contact__subtitle:hover{
-    color: var(--first-color-second);
+    color: var(--text-highlight-color);
 }
 
 .contact__content{
@@ -1124,7 +1127,10 @@ img{
     }
 
     .portfolio__img{
-        width: 300px;
+        width: 250px;
+    }
+    .portfolio__img-small{
+        width: 200px;
     }
     .portfolio__content{
         align-items: center;
