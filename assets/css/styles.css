@@ -404,6 +404,10 @@ img{
     align-items: center;
 }
 
+.contact__button:hover{
+    cursor: pointer;
+}
+
 .contact__button:hover .button__icon{
     transform: translateX(.25rem);
 }
